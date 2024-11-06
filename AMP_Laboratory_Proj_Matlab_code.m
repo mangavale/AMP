@@ -18,8 +18,8 @@ T0=25; % ambient temperature (°C)
 
 %% Model parameters
 
-eta0=0.3; %efficiency coefficient (start with 1 or a reasonable estimated)
-c_z=10; % Geometrical correction factor
+eta0=0.18;%0.3; %efficiency coefficient (start with 1 or a reasonable estimated)
+c_z=20;%10; % Geometrical correction factor
 %% Process parameters
 
 P=1.6; % Power (W)
@@ -35,7 +35,7 @@ Track_w=122; %(um) insert here track width experimentally measured value
 xmin=-230/2; %(mm)
 %xmax=50; %(um)
 xmax=230/2; %(mm)
-dx=10;%(um)
+dx=1;%(um) 10before
 %ymax=200;%(um)
 ymax=250/2;%(mm)
 ymin=-ymax;%(um)
